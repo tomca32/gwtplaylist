@@ -22,14 +22,7 @@ $(window).resize();
 
 
 
-$(window).resize(function(){
-	wHeight = $(window).innerHeight();
-	wWidth = $(window).innerWidth();
-	$('.videoBG').css({width:wWidth, height:wHeight});
-	videos.css({height: wHeight, width:wWidth, top: 0+'px', left:0+'px'});
-	
-	
-});//End window.resize
+
 
 })( jQuery );
 
