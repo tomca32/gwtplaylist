@@ -24,13 +24,14 @@ $.fn.playlist = function( options ) {
 		webm: list[currentVideoNumber]+'.webm',
 		scale:true,
 		zIndex:0,
-		loop: 0
+		loop: false
 	});
 	
 	
 	
 	function nextVideo(){
 		currentPlayer.hide();
+		currentPlayer.html('');
 		
 		//players switch
 		var temp = currentPlayer;
@@ -38,7 +39,7 @@ $.fn.playlist = function( options ) {
 		nextPlayer = temp;
 		
 		
-		if (currentVideoNumber+1 == list.length){
+		if (currentVideoNumber+1 === list.length){
 			if (settings.loop){
 				currentVideoNumber = 0;
 			} else {
@@ -54,7 +55,7 @@ $.fn.playlist = function( options ) {
 			webm: list[currentVideoNumber]+'.webm',
 			scale:true,
 			zIndex:0,
-			loop: 0
+			loop: false
 		}, false);
 		currentPlayer.show();
 		$(window).resize();
