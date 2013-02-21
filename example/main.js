@@ -11,8 +11,7 @@ $(document).ready(function(){
 	
 	
 videos.playlist({
-	videos: ["videos/1","videos/2"],
-	opcija2:'bla'
+	videos: ["videos/1","videos/2"]
 });
 	
 
