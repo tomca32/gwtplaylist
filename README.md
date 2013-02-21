@@ -9,7 +9,8 @@ Usage: call playlist on a div element that will serve as a bg container, with an
 
 Example: 
 $('#videos').videos.playlist({
-videos: ["videos/1","videos/2"]
+videos: ["videos/1","videos/2"], // array of video paths
+loop: true // True/False  - will the whole playlist loop
 });
 
 You should have video files in all three web formats (mp4, ogv and webm), however you only need to input a file name, not its extension as an argument. 
