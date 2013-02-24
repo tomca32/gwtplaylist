@@ -11,12 +11,6 @@ body {
 }
 
 #videos {
-	width:300px;
-	height:300px;
-	top: 0;
-	left: 0;
-	position:fixed;
-	z-index: -1;
 }
 
 #pattern {
