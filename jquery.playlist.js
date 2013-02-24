@@ -1,3 +1,14 @@
+/*
+GWT jQuery Video BG Playlist
+
+Tomislav Pesut - Gandzo Web Team
+http://gandzo.com
+
+Original plugin by Syd Lawrence
+www.sydlawrence.com
+
+
+*/
 (function( $ ){
 
 $.fn.playlist = function( options ) { 
